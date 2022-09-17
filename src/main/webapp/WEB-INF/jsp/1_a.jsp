@@ -71,7 +71,7 @@
         <c:forEach items="${enrolls}" var="enroll">
             <tr>
                 <td width="100">${enroll.getId()}</td>
-                <td width="100">${enroll.getCourseId()}</td>
+                <td width="100">${enroll.getCourseEntity().getCourseId()}</td>
                 <td width="100">${enroll.getGrade()}</td>
                 <td width="100">${enroll.getExam()}</td>
             </tr>
